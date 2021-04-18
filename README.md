@@ -30,7 +30,7 @@ This model was saved and run through the test set. It achieved a 93.4363% accura
 
 Using a Google image search I downloaded an image of a German “Stop”, “Bicycle Crossing”, “Keep Left”, “Keep Right”, and “No Entry” signs.
 
-![Stop sign](stop.jpg width=250) ![Bicycles sign](bicycles.jpg width=250) ![Keep Left sign](keep_left.jpg width=250) ![Keep right sign](keep_right.jpg width=250) ![No entry sign](no_entry.jfif =width=250)
+![Stop sign](stop.jpg | width=250) ![Bicycles sign](bicycles.jpg | width=250) ![Keep Left sign](keep_left.jpg | width=250) ![Keep right sign](keep_right.jpg | width=250) ![No entry sign](no_entry.jfif | width=250)
 
 These five images were then resized to be 32x32 pixels, preprocessed, and run through the model to generate predictions. These new images were then run through the model. The “Keep Left” and “No Entry” signs were successfully predicted for a total accuracy of 40%. Softmax probabilities of the predictions are given below.
 
